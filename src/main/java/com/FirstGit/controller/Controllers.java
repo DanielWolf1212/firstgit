@@ -10,4 +10,8 @@ public class Controllers {
 	public String home() {
 		return "Daniel";
 	}
+	@GetMapping("/name")
+	public String name() {
+		return "Daniel name";
+	}
 }
