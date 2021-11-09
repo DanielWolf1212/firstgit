@@ -12,6 +12,6 @@ public class Controllers {
 	}
 	@GetMapping("/name")
 	public String name() {
-		return "Daniel name";
+		return "Daniel asdfasdf name";
 	}
 }
